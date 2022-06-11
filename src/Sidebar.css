@@ -1,0 +1,103 @@
+.sidebar{
+    margin-left: 84px;
+    margin-right: 84px;
+}
+.sidebar_input{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.4px solid #B8B8B8;
+}
+.sidebar_input> .MuiSvgIcon-root{
+    color: black;
+}
+.sidebar_input> input{
+    width: 124;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.sidebar_notice{
+    display: flex;
+    margin-top: 32px;
+}
+.sidebar_notice>.MuiSvgIcon-root{
+    width: 13.33px;
+    height: 13.33px;
+    color: gray;
+}
+.sidebar_notice>span{
+    margin-left: 10px;
+    width: 220px;
+    height: 32px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: gray;
+}
+.group_heading{
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+}
+.group_heading>span{
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: black;
+}
+.groups>div{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+.groups>div>span{
+    width: 104px;
+    height: 19px;
+    padding-left: 12px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.groups>div>Button{
+    margin-left: 30px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 73px;
+    height: 24px;
+    color: black;
+    background: #EDEEF0;
+    border-radius: 20px;
+}
+.groups>div:nth-of-type(1)>button{
+    color: white !important;
+    background: black !important;
+}
+.more{
+    width: 70px;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: blue;
+}

@@ -1,0 +1,105 @@
+.feed_post{
+    width: 692px;
+    height: 472px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.feed_post>img{
+    width: 692px;
+    height: 220px;
+    border-radius: 4px 4px 0px 0px;
+}
+.post_container{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.post_container>img{
+margin: 10px 0 10px 0;
+    width: 77px;
+    height: 25px;
+}
+.post_heading{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 24.67;
+    gap: 28.67px;
+}
+.post_heading span{
+    width: 600px;
+    height: 60px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.17%;
+}
+.post_description{
+    margin-top: 12px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+}
+.post_detail{
+    margin-top: 32px;
+    display: flex;
+}
+.left_detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left_detail>img{
+    width: 48px;
+    height: 48px;
+}
+.left_detail>span{
+    width: 135px;
+    height: 24px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+}
+.right_detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 292px;
+}
+.right_detail>.MuiSvgIcon-root{
+    width: 16.5px;
+    height: 11.25px;
+    color: black;
+}
+.right_detail>span{
+    margin-left: 8.75px;
+    width: 69px;
+    height: 18px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #525252;
+}
+.box{
+    margin-left: 40px;
+    width: 42px;
+    height: 36px;
+    background: #EDEEF0;
+    border-radius: 2px;
+}
+.box>.MuiSvgIcon-root{
+    width: 13.5px;
+    height: 14.94px;
+    padding: 10.5px 10.25px 14.5px 14.25px;
+}

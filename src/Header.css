@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid whitesmoke;
+    left: 0;
+    top: 0;
+}
+
+ .header img{
+    width: 162.57px;
+    height: 24px;
+    left: 72px;
+    top: 24px;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 21px;
+    width: 360px;
+    height: 42px;
+    left: 540px;
+    top: 16px;
+}
+.header_middle > .MuiSvgIcon-root{
+    padding-left: 10px;
+    color: gray;
+}
+.header_middle > input{
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.header_right{
+    display: flex;
+    width: 202px;
+    height: 21px;
+    left: 1161px;
+    top: 27px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+.header_right span:nth-of-type(2){
+    color: blue !important;
+}
